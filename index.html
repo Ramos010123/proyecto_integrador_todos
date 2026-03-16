@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Sistema inteligente de planificación energética doméstica para optimizar el consumo eléctrico, reducir costes y mejorar la eficiencia del hogar."
+  />
+  <title>Energía Inteligente | Optimización del consumo doméstico</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="#inicio" class="brand" aria-label="Ir al inicio">
+        <img src="images/logo.png" alt="Logo de Energía Inteligente" class="brand-logo" />
+        <div class="brand-text">
+          <span class="brand-title">Energía Inteligente</span>
+          <span class="brand-subtitle">Planificación energética doméstica</span>
+        </div>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="mainNav">
+        <a href="#inicio">Inicio</a>
+        <a href="#que-hacemos">Qué hacemos</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#demo">Presentación</a>
+        <a href="#autores">Autores</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="eyebrow">Optimización energética para hogares</span>
+          <h1>Convierte los datos eléctricos en decisiones inteligentes</h1>
+          <p class="hero-description">
+            Analizamos precios horarios oficiales y variables meteorológicas para
+            recomendar las mejores horas de uso de tus electrodomésticos, reducir
+            el coste de tu factura y mejorar la eficiencia energética del hogar.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#que-hacemos" class="btn btn-primary">Descubrir el sistema</a>
+            <a href="#demo" class="btn btn-secondary">Ver la presentación</a>
+          </div>
+
+          <div class="hero-highlights">
+            <div class="highlight">
+              <strong>Datos reales</strong>
+              <span>Precios oficiales y previsión meteorológica</span>
+            </div>
+            <div class="highlight">
+              <strong>Plan diario</strong>
+              <span>Recomendaciones claras y comprensibles</span>
+            </div>
+            <div class="highlight">
+              <strong>Ahorro potencial</strong>
+              <span>Uso más eficiente de la electricidad</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-card-top">
+            <p class="mini-label">Próxima recomendación</p>
+            <span class="status-badge">Sistema activo</span>
+          </div>
+
+          <div class="schedule-card">
+            <h2>Plan energético recomendado</h2>
+            <p class="schedule-day">Mañana</p>
+
+            <div class="schedule-item">
+              <span>Lavadora</span>
+              <strong>14:00</strong>
+            </div>
+            <div class="schedule-item">
+              <span>Lavavajillas</span>
+              <strong>15:00</strong>
+            </div>
+            <div class="schedule-item">
+              <span>Termo eléctrico</span>
+              <strong>03:00</strong>
+            </div>
+
+            <div class="schedule-footer">
+              <p>Horas más baratas: <strong>03:00–05:00</strong> y <strong>14:00–16:00</strong></p>
+              <p>Ahorro estimado: <strong>0,42 €</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="que-hacemos">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Qué hacemos</span>
+          <h2>Una solución clara para ahorrar energía en casa</h2>
+          <p>
+            Nuestra empresa desarrolla un sistema inteligente de planificación energética
+            doméstica capaz de transformar información compleja del sistema eléctrico en
+            recomendaciones prácticas para cualquier hogar.
+          </p>
+        </div>
+
+        <div class="cards-grid three-columns">
+          <article class="info-card">
+            <div class="card-icon">⚡</div>
+            <h3>Analizamos precios horarios</h3>
+            <p>
+              Utilizamos datos energéticos oficiales para identificar las franjas más
+              convenientes desde el punto de vista económico.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon">🏠</div>
+            <h3>Modelamos tareas domésticas</h3>
+            <p>
+              Estudiamos el uso de electrodomésticos comunes como lavadora, lavavajillas,
+              horno o termo eléctrico.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon">🕒</div>
+            <h3>Generamos recomendaciones</h3>
+            <p>
+              Proponemos planes diarios de uso energético para ayudar al usuario a tomar
+              decisiones más eficientes.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="como-funciona">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Cómo funciona</span>
+          <h2>Del dato bruto a una recomendación útil</h2>
+          <p>
+            El sistema sigue un proceso estructurado que combina análisis de datos,
+            modelización y optimización.
+          </p>
+        </div>
+
+        <div class="steps">
+          <article class="step-card">
+            <span class="step-number">01</span>
+            <h3>Recopilación de datos</h3>
+            <p>
+              Se obtienen precios horarios oficiales y previsiones meteorológicas desde
+              fuentes públicas y verificables.
+            </p>
+          </article>
+
+          <article class="step-card">
+            <span class="step-number">02</span>
+            <h3>Tratamiento y almacenamiento</h3>
+            <p>
+              Los datos se normalizan y se organizan para su consulta, comparación y uso
+              posterior dentro del sistema.
+            </p>
+          </article>
+
+          <article class="step-card">
+            <span class="step-number">03</span>
+            <h3>Optimización del consumo</h3>
+            <p>
+              Un algoritmo evalúa las ventanas horarias disponibles y selecciona las
+              opciones más eficientes según cada tarea.
+            </p>
+          </article>
+
+          <article class="step-card">
+            <span class="step-number">04</span>
+            <h3>Plan diario y notificación</h3>
+            <p>
+              El usuario recibe recomendaciones comprensibles, estimaciones de ahorro y
+              una planificación energética lista para aplicar.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="beneficios">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Beneficios</span>
+          <h2>Una propuesta útil, realista y escalable</h2>
+          <p>
+            El sistema está pensado para ser práctico en el presente y ampliable en el futuro.
+          </p>
+        </div>
+
+        <div class="benefits-layout">
+          <div class="benefits-list">
+            <div class="benefit-item">
+              <h3>Reducción del gasto eléctrico</h3>
+              <p>
+                La planificación horaria permite desplazar consumos a periodos más favorables.
+              </p>
+            </div>
+
+            <div class="benefit-item">
+              <h3>Mayor eficiencia energética</h3>
+              <p>
+                El hogar aprovecha mejor la información disponible y mejora su gestión del consumo.
+              </p>
+            </div>
+
+            <div class="benefit-item">
+              <h3>Sin necesidad de domótica</h3>
+              <p>
+                No es necesario controlar dispositivos físicamente para obtener recomendaciones útiles.
+              </p>
+            </div>
+
+            <div class="benefit-item">
+              <h3>Preparado para crecer</h3>
+              <p>
+                Puede evolucionar hacia aprendizaje automático, automatización avanzada o integración IoT.
+              </p>
+            </div>
+          </div>
+
+          <aside class="benefits-panel">
+            <h3>¿Por qué elegirnos?</h3>
+            <ul>
+              <li>Trabajamos con datos oficiales</li>
+              <li>Traducimos información técnica a lenguaje claro</li>
+              <li>Diseñamos soluciones aplicables a hogares reales</li>
+              <li>Combinamos matemáticas, informática y sostenibilidad</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="demo">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Presentación</span>
+          <h2>Ven a conocernos y descubre cómo funciona el proyecto</h2>
+          <p>
+            Si quieres saber más sobre la propuesta, escuchar una explicación completa
+            y conocer el valor práctico del sistema, te esperamos en nuestra presentación.
+          </p>
+        </div>
+
+        <div class="event-box">
+          <div class="event-main">
+            <h3>Defensa y presentación del proyecto</h3>
+            <p><strong>Fecha:</strong> 28 de abril de 2026</p>
+            <p><strong>Horario:</strong> de 12:00 a 15:00</p>
+            <p><strong>Lugar:</strong> Pecera del Edificio H, Universidad Francisco de Vitoria (UFV)</p>
+          </div>
+
+          <div class="event-side">
+            <p class="event-call">Acércate y descubre cuánto puede ahorrar un hogar con una planificación energética inteligente.</p>
+            <a href="#autores" class="btn btn-primary">Conocer al equipo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="autores">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Autores</span>
+          <h2>Equipo del proyecto</h2>
+          <p>
+            Este proyecto busca integrar de forma práctica conocimientos adquiridos durante la formación universitaria, especialmente en análisis de datos, optimización y desarrollo de sistemas informáticos. A través de su planteamiento se pretende mostrar cómo las herramientas matemáticas y tecnológicas pueden transformar información compleja en recomendaciones útiles para el usuario. De este modo, el trabajo refleja el potencial de la ingeniería para abordar retos actuales relacionados con la eficiencia energética y la gestión responsable de los recursos.
+          </p>
+          <p>
+             
+          </p>
+          <p>
+            A continuación se presenta el equipo responsable del desarrollo del proyecto.
+            Cada integrante aporta una perspectiva complementaria en el ámbito técnico,
+            analítico y aplicado.
+          </p>
+        </div>
+
+        <div class="authors-list">
+          <div class="author-card">
+            <div class="author-image-wrapper">
+              <img src="images/foto_yo.jpeg" alt="Foto del autor 1" class="author-image" />
+            </div>
+            <div class="author-content">
+              <h3>Ignacio Ramos Nicolás</h3>
+              <p>
+                Soy un estudiante de 2º del doble grado de Ingeniería Matemática + Ingeniería Informática con una gran pasión por la tecnología, la sostenibilidad y la innovación.
+              </p>
+              <p>
+                Este proyecto es el resultado de mi interés por aplicar mis conocimientos técnicos a problemas reales, es decir, solucionar lo que de verdad importa a la sociedad. Todo se remonta a cuando, en segundo de bachillerato, hice el programa de excelencia de la Universidad de Navarra en el que desarrollé un proyecto sobre la sostenibilidad en la construcción y el desarrollo urbanístico titulado "Edificación sostenible: un ecobarrio resiliente y adaptable a las necesidades cambiantes de nuestra sociedad", respondiendo así a varios de los ODS 2030. En ese proyecto obtuve Mención a la Excelencia, además, el jurado me animó a seguir desarrollando esta idea. Con ese objetivo, con más ilusión que nunca y con unas ganas enormes de hacer algo grande, he decido seguir este proyecto con el fin de sacarle el mayor partido posible.
+              </p>
+            </div>
+          </div>
+
+          <div class="author-card">
+            <div class="author-image-wrapper">
+              <img src="images/autor2.jpg" alt="Foto del autor 2" class="author-image" />
+            </div>
+            <div class="author-content">
+              <h3>Nombre del autor 2</h3>
+              <p>
+                Sustituye este texto por una breve presentación del segundo integrante del equipo.
+                Puedes explicar su enfoque académico y las tareas desarrolladas dentro del proyecto.
+              </p>
+              <p>
+                También puedes resaltar su contribución en el diseño del sistema, la parte algorítmica
+                o el planteamiento aplicado de la solución.
+              </p>
+            </div>
+          </div>
+
+          <div class="author-card">
+            <div class="author-image-wrapper">
+              <img src="images/foto_juana.jpeg" alt="Foto del autor 3" class="author-image" />
+            </div>
+            <div class="author-content">
+              <h3>Juana Wolff Ramírez</h3>
+              <p>
+                Sustituye este texto por una breve presentación del tercer integrante del equipo.
+                Este apartado puede servir para mostrar su papel dentro del desarrollo y validación del proyecto.
+              </p>
+              <p>
+                Asimismo, puedes mencionar su interés por la sostenibilidad, la eficiencia energética
+                o la aplicación práctica de herramientas informáticas y matemáticas.
+              </p>
+            </div>
+          </div>
+
+          <div class="author-card">
+            <div class="author-image-wrapper">
+              <img src="images/autor4.jpg" alt="Foto del autor 4" class="author-image" />
+            </div>
+            <div class="author-content">
+              <h3>Nombre del autor 4</h3>
+              <p>
+                Sustituye este texto por una breve presentación del cuarto integrante del equipo.
+                Puedes incorporar su perfil académico y su papel dentro de la propuesta desarrollada.
+              </p>
+              <p>
+                Este bloque también puede emplearse para añadir una breve reflexión sobre la utilidad
+                práctica del trabajo o su vinculación con la formación recibida.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <strong>Energía Inteligente</strong>
+        <p>Optimización del consumo energético doméstico mediante datos reales y planificación inteligente.</p>
+      </div>
+      <p class="footer-copy">© 2026. Proyecto académico universitario.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
